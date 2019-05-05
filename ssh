@@ -1,0 +1,17 @@
+ //定义成员变量
+        /// <summary>
+        /// 键盘状态，初始为   start
+        /// </summary>
+        string Key_Name = "start";
+        /// <summary>
+        /// 蛇身数组
+        /// </summary>
+        Label[] Snake_Boby = new Label[3000];
+        /// <summary>
+        /// 随机数,用于生成food
+        /// </summary>
+        Random R = new Random();
+        /// <summary>
+        /// 记录位置
+        /// </summary>
+        int Snake_Boby_content_x = 0, Snake_Boby_content_y = 0;
